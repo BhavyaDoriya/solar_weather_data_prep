@@ -24,9 +24,9 @@ then move forward with following
 ### ⚠️ Do not blindly run scripts.
 ### Please read comments inside the code before running it.
 ### You have to replace NREL_API_KEY,NREL_USER_FULL_NAME,NREL_USER_EMAIL in download_ncdb_weather.py.
-Also this code by default is only extracting Actual_**_DPV.csv files cause they are proper choise for training the ML model for my project
+Also by default this code is only extracting Actual_**_DPV.csv files cause they are proper choice for training the ML model for my project.
 If you want to use all HA4_UPV,DA_UPV,HA4_DPV,DA_DPV files check for the comments in extract_dpv.py and build_pv_dataframe.py
-### if you have read the instruction you can either do
+### if you have read the instructions you can either do
 
 ```bash 
 python scripts/run_all_scripts.py
