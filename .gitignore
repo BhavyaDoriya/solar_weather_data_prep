@@ -1,0 +1,12 @@
+.env
+.venv/
+processed/**
+!processed/.gitkeep
+.vscode/
+filtered/**
+!filtered/.gitkeep
+# Ignore all raw data
+raw/**
+# But keep folder structure
+!raw/solar/
+!raw/solar/.gitkeep
