@@ -1,7 +1,7 @@
 # Solar Data Preparation Pipeline
 
 This repository contains scripts to prepare and merge
-distributed PV generation data with NCDB weather data
+distributed PV generation data with CONUS climate (4km) weather data
 for solar analysis and ML workflows.
 
 ## ⚙️ Setup
@@ -50,7 +50,7 @@ python scripts/merge_pv_weather.py
 This project relies on publicly available datasets provided by the
 U.S. National Renewable Energy Laboratory (NREL).
 
-### 1. NCDB / NSRDB Weather Data
+### 1. CONUS Climate 4km RCP 4.5 Weather Dataset
 
 Hourly gridded weather data (GHI, DNI, DHI, temperature, wind speed, etc.)
 is sourced from the NREL National Climate Database (NCDB):
